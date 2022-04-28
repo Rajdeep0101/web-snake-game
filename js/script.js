@@ -1,9 +1,9 @@
 // Game constants
 let inputDir = { x: 0, y: 0 };
-const foodSound = new Audio("../food.mp3");
-const gameoverSound = new Audio("../gameover.mp3");
-const moveSound = new Audio("../move.mp3");
-const musicSound = new Audio("../music.mp3");
+const foodSound = new Audio("../sound/food.mp3");
+const gameoverSound = new Audio("../sound/gameover.mp3");
+const moveSound = new Audio("../sound/move.mp3");
+const musicSound = new Audio("../sound/music.mp3");
 const hiscoreBox = document.getElementById("hiScoreBox");
 const scoreBox = document.getElementById("scoreBox");
 
@@ -32,7 +32,7 @@ function isCollide(snake) {
       return true;
     }
   }
-  
+
   //  if you bumps into the wall
   if (
     snakeArr[0].x > 18 ||
