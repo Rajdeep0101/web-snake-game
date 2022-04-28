@@ -1,0 +1,19 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "snake game app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajdeep0101/web-snake-game.git"
+  },
+  "author": "Rajdeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajdeep0101/web-snake-game/issues"
+  },
+  "homepage": "https://github.com/Rajdeep0101/web-snake-game#readme"
+}
