@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0;
+padding: 0;
+}
+
+.body{
+    background: url(../bg.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#board{
+    background: linear-gradient(#e0fc9d,#c68875);
+    width: 92vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background: linear-gradient(rgb(216, 99, 197),rgb(131, 37, 219)) ;
+    border-radius: 9px;
+    transform: scale(1.02);
+    border: .25vmin solid rgb(87, 14, 223);
+}
+
+.snake{
+    background-color: rgb(201, 63, 120);
+    border: .25vmin solid rgb(147, 26, 196);
+    border-radius: 15px;
+}
+
+.food{
+    background: linear-gradient(rgb(219, 155, 15),rgb(29, 204, 131)) ;
+    border: .25vmin solid black;
+    border-radius: 20px;
+}
+
+#scoreBox{
+    position: absolute;
+    width: 14%;
+    top: 20px;
+    right: 100px;
+    font-size: 33px;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+    border: 2px solid rgb(52, 58, 52);
+    border-radius: 12px;
+    padding: 2px 6px;
+    background: linear-gradient(rgb(226, 240, 107),rgb(103, 165, 103));
+
+}
+
+#hiScoreBox{
+    position: absolute;
+    width: 15%;
+    top: 95px;
+    right: 100px;
+    font-size: 33px;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+    border: 2px solid rgb(52, 58, 52);
+    border-radius: 12px;
+    padding: 2px 6px;
+    background: linear-gradient(rgb(195, 211, 49),rgb(83, 179, 83));
+
+}
