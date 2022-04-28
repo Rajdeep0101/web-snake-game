@@ -7,13 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rajdeep0101/web-snake-game.git"
+    "type": "git"
   },
   "author": "Rajdeep",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rajdeep0101/web-snake-game/issues"
-  },
-  "homepage": "https://github.com/Rajdeep0101/web-snake-game#readme"
+  "license": "ISC"
 }
