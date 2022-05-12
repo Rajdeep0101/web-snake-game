@@ -35,9 +35,9 @@ function isCollide(snake) {
 
   //  if you bumps into the wall
   if (
-    snakeArr[0].x > 18 ||
+    snakeArr[0].x >= 18 ||
     snakeArr[0].y <= 0 ||
-    snakeArr[0].y > 18 ||
+    snakeArr[0].y >= 18 ||
     snakeArr[0].x <= 0
   ) {
     return true;
